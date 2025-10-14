@@ -1,26 +1,28 @@
-# CSU_mzl233
-# 本项目为中南大学新能源控制与工业智能研究所“电力电子+AI”研究部分论文与公开数据上传仓库
-# 1.论文：
+#CSU_mzl233
 
-见文件夹papers，截止到目前共三篇论文均发表自IEEE Trans. Power Electron.
+This project is a repository for uploading papers and public data related to the "Power Electronics + AI" research of the New Energy Control and Industrial Intelligence Research Institute, Central South University.
 
-# 2.部分公开数据集：
+#1. Papers:
 
-见文件夹dataset/dataset_3ports
+Please refer to the "papers" folder. Up to now, all three papers have been published in IEEE Trans. Power Electron.
 
-（1）png&svg均为三端口电路的可视化图片。 
+#2. Partial public datasets:
 
-（2）trueall.csv文件为相应电路的二进制存储格式，其含义说明如下：
+Please refer to the "dataset/dataset_3ports" folder.
 
-    每一行代表的是一条电路数据，可与png&svg文件对应
-    
-    任意一行是一个5*7*7的三维矩阵经过flatten处理于一行上进行存储，其中7*7代表的是7*7的节点邻接矩阵，
-    
-    5代表层数，第一层为无连接层，即节点i,j无连接则置1；第二层为V层，即节点i,j通过电压源连接则置1；
-    
-    第三层为L层，即节点i,j通过电感连接则置1；第四层为S层，即节点i,j通过功率开关连接则置1；
-    
-    第五层为C层，即节点i,j通过电容连接则置1。
+(1) Both png and svg files are visual images of the three-port circuit.
 
-# End
+(2) The trueall.csv file is the binary storage format of the corresponding circuit, and its meaning is explained as follows:
+
+Each row represents a piece of circuit data, which can correspond to the png and svg files.
+
+Any row is a 5*7*7 three-dimensional matrix stored in a single row after flattening. Among them, 7*7 represents a 7*7 node adjacency matrix.
+
+5 represents layers: the first layer is the non-connection layer, i.e., set to 1 if there is no connection between nodes i and j; the second layer is the V layer, i.e., set to 1 if nodes i and j are connected through a voltage source;
+
+the third layer is the L layer, i.e., set to 1 if nodes i and j are connected through an inductor; the fourth layer is the S layer, i.e., set to 1 if nodes i and j are connected through a power switch;
+
+the fifth layer is the C layer, i.e., set to 1 if nodes i and j are connected through a capacitor.
+
+#End
 
