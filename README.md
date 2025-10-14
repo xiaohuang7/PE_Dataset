@@ -4,9 +4,9 @@
 
 见文件夹papers，截止到目前共三篇论文均发表自IEEE Trans. Power Electron.
 
-# 2.部分公开数据集 
+# 2.部分公开数据集：
 
-见文件夹dataset/dataset_3ports 
+见文件夹dataset/dataset_3ports
 
 （1）png&svg均为三端口电路的可视化图片。 
 
@@ -20,7 +20,7 @@
     
     第三层为L层，即节点i,j通过电感连接则置1；第四层为S层，即节点i,j通过功率开关连接则置1；
     
-    第五层为C层，即节点i,j通过电容连接则置1。\n
+    第五层为C层，即节点i,j通过电容连接则置1。
 
 # End
 
