@@ -1,12 +1,12 @@
-#CSU_mzl233
+# CSU_mzl233
 
 This project is a repository for uploading papers and public data related to the "Power Electronics + AI" research of the New Energy Control and Industrial Intelligence Research Institute, Central South University.
 
-#1. Papers:
+# 1. Papers:
 
 Please refer to the "papers" folder. Up to now, all three papers have been published in IEEE Trans. Power Electron.
 
-#2. Partial public datasets:
+# 2. Partial public datasets:
 
 Please refer to the "dataset/dataset_3ports" folder.
 
@@ -24,5 +24,5 @@ the third layer is the L layer, i.e., set to 1 if nodes i and j are connected th
 
 the fifth layer is the C layer, i.e., set to 1 if nodes i and j are connected through a capacitor.
 
-#End
+# End
 
